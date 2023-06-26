@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integridade="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anônimo">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Trabalho Pratico DIW</title>
+</head>
+
+<body>
+  <header>
+    <div class="container text-center">
+      <div class="row align-items-center">
+        <div id="inicio" class="col">
+          <a href="https://trabalho-api.alynneviana.repl.co/" style="text-decoration: none; color: white;">
+            <img id="iconinicio" src="novalogo.png" alt="Ícone da página inicial">
+          </a>
+
+        </div>
+        <div id="pesquisa" class="col">
+          <form id="searchForm">
+            <input id="IPTPesquisa" type="text" placeholder="Pesquisar produto">
+            <button id="BTNpesquisa" type="submit">Pesquisar</button>
+          </form>
+        </div>
+        <div class="col">
+          <h6 class="text-uppercase fw-bold">Alynne Paiolla Abdalla V Matrícula:813201 Curso: ADS</h6>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row" id="productList"></div>
+
+    <div class="row mt-4" style="margin-bottom: 1rem;">
+      <div class=" col text-center">
+        <select id="categorySelect">
+          <option value="Free Items - Free Gifts">Free Items - Free Gifts</option>
+          <option value="Personal Care - Bath and Body">Personal Care - Bath and Body</option>
+          <option value="Personal Care - Beauty Accessories">Personal Care - Beauty Accessories</option>
+          <option value="Personal Care - Eyes">Personal Care - Eyes</option>
+          <option value="Personal Care - Fragrance">Personal Care - Fragrance</option>
+          <option value="Personal Care - Hair">Personal Care - Hair</option>
+          <option value="Personal Care - Lips">Personal Care - Lips</option>
+          <option value="Personal Care - Makeup">Personal Care - Makeup</option>
+          <option value="Personal Care - Nails">Personal Care - Nails</option>
+          <option value="Personal Care - Perfumes">Personal Care - Perfumes</option>
+          <option value="Personal Care - Skin">Personal Care - Skin</option>
+          <option value="Personal Care - Skin Care">Personal Care - Skin Care</option>
+
+        </select>
+        <button id="BTNcategoria" onclick="BuscarCategory()">Buscar categoria</button>
+
+        </select>
+      </div>
+    </div>
+
+    <div class="row mt-4" style="margin-bottom: 1rem;">
+      <div class=" col text-center">
+        <button id="previousButton" class="btn btn-primary" type="button">Página anterior</button>
+        <button id="nextButton" class="btn btn-primary" type="button">Próxima página</button>
+      </div>
+    </div>
+  </div>
+  </main>
+  <br>
+  <footer class="text-center text-lg-start text-white" style="background-color: #5875ac" <section <div
+    class="container text-center">
+    <div class="col-auto">
+
+    </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Alynne Paiolla Abdalla V Matrícula:813201 Curso: ADS</h6>
+            <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #7c4dff; height: 2px" />
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+  </footer>
+  <script src="./script.js" <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js"
+    integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>

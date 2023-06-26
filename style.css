@@ -1,0 +1,34 @@
+body {
+  background-color: lightblue;
+  margin: 0% !important;
+  padding: 0% !important;
+  overflow-x: hidden;
+}
+
+#header-bg {
+  background-color: lightblue;
+}
+
+#filtro {
+  height: 100px;
+
+  top: 79px;
+  right: -985px;
+}
+
+.card {
+  margin: 0%;
+  padding: 0%;
+}
+
+h5 {
+  font-size: 17px !important;
+}
+
+.estrelas {
+  background-color: rgb(116, 116, 116);
+}
+
+#iconinicio {
+  max-width: 70px;
+}
